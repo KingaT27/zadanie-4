@@ -5,13 +5,17 @@
 .navbar-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   text-decoration: none;
 }
 .head-contact {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
+}
+.svg-mail {
+  margin: 0;
+}
+.svg-phone {
 }
 .menu {
   flex-direction: row;
@@ -126,6 +130,16 @@ h4 {
   line-height: 1.71;
   color: #757575;
 }
+.icons {
+  background-color: #f5f4fa;
+  padding: 25px 101.54px 25px 101.5px;
+}
+.lorem-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 94px;
+  gap: 30px;
+}
 ul {
   list-style: none;
 }
@@ -158,6 +172,16 @@ h2 {
   gap: 30px;
   padding: 0;
   justify-content: center;
+}
+.our-clients {
+  display: flex;
+  justify-content: space-between;
+}
+.client-logo {
+  border: 1px solid color #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+  fill: currentColor;
 }
 .human {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
