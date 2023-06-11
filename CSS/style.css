@@ -15,7 +15,11 @@
 .svg-mail {
   margin: 0;
 }
-.svg-phone {
+.svg-mail:hover {
+  fill: #2196f3;
+}
+.svg-phone:hover {
+  fill: #2196f3;
 }
 .menu {
   flex-direction: row;
@@ -137,8 +141,9 @@ h4 {
 .lorem-icons {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
   gap: 30px;
+  padding: 0;
+  padding-top: 94px;
 }
 ul {
   list-style: none;
@@ -149,6 +154,7 @@ h2 {
   line-height: 1.17;
   color: #212121;
   text-align: center;
+  padding-bottom: 50px;
 }
 .what-we-do {
   display: flex;
@@ -161,6 +167,7 @@ h2 {
 .section-background {
   background-color: #2f303a;
   height: 600px;
+  background-image: url(../images/Team-image.jpg);
 }
 .team-background {
   background: #f5f4fa;
@@ -176,12 +183,21 @@ h2 {
 .our-clients {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 94px;
 }
 .client-logo {
-  border: 1px solid color #afb1b8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
   fill: currentColor;
+  cursor: pointer;
+  width: 170px;
+  height: 92px;
+  text-align: center;
+  padding-top: 17.71px;
+}
+.client-logo:hover {
+  color: #2196f3;
 }
 .human {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -201,6 +217,26 @@ h3 {
   font-size: 16px;
   line-height: 1.18;
   color: #757575;
+}
+.social-media {
+  cursor: pointer;
+}
+.media {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  fill: #afb1b8;
+}
+.media-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0;
+}
+.media:hover {
+  fill: #ffffff;
+  background: #2196f3;
+  border-radius: 50%;
 }
 .address {
   font-weight: 400;
@@ -277,6 +313,35 @@ h4 {
   margin: 0 auto;
   padding: 0;
   padding-top: 9px;
+}
+.dolacz-do-nas {
+}
+.join-us {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #fff;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-whole {
+  float: left;
+  padding-right: 60px;
+}
+.media-footer {
+  display: flex;
+  gap: 10px;
+}
+.social-footer {
+  fill: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 50%;
+}
+.social-footer:hover {
+  fill: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
 }
 /*PORTFOLIO*/
 .border {
