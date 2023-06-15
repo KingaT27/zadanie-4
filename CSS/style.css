@@ -1,3 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -12,6 +20,32 @@
   justify-content: flex-end;
   gap: 50px;
 }
+.header-contact-item {
+  display: flex;
+  gap: 10 px;
+}
+.header-contact-link {
+  text-decoration: none;
+}
+.header-contact-link:hover .header-contact-link-text {
+  color: #2196f3;
+}
+.header-contact-link:hover .svg-contact-icon {
+  fill: #2196f3;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-contact-link-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 .svg-mail {
   margin: 0;
 }
@@ -25,10 +59,7 @@
   flex-direction: row;
   display: flex;
   justify-content: space-between;
-}
-.menu-options {
-  display: flex;
-  justify-content: space-between;
+  gap: 46px;
 }
 .logo-nav {
   display: flex;
@@ -39,6 +70,7 @@
   font-size: 26px;
   align-items: center;
   justify-content: space-between;
+  gap: 93px;
 }
 .logo-final {
   justify-content: space-between;
@@ -52,6 +84,9 @@
   font-size: 26px;
   text-decoration: none;
 }
+.logo span {
+  color: #2196f3;
+}
 .logo:hover {
   color: #2196f3;
 }
@@ -63,7 +98,6 @@
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
-  padding: 46px;
 }
 .menu-links:hover {
   color: #2196f3;
@@ -337,6 +371,12 @@ h4 {
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-footer svg {
+  display: block;
 }
 .social-footer:hover {
   fill: #ffffff;
