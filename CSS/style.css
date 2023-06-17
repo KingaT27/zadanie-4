@@ -189,6 +189,7 @@ h2 {
   color: #212121;
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 94px;
 }
 .what-we-do {
   display: flex;
@@ -272,12 +273,7 @@ h3 {
   background: #2196f3;
   border-radius: 50%;
 }
-.address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: black;
-}
+
 h4 {
   font-weight: 700;
   font-size: 18px;
@@ -292,75 +288,85 @@ h4 {
 }
 .footer-description {
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  overflow: hidden;
+  display: flex;
 }
-.logo-footer {
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.2px;
+.webstudio-footer {
+  padding: 0;
+  padding-right: 70px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.footer-final {
+  padding-top: 20px;
+}
+.address {
+  font-family: roboto;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 700px;
+  color: #ffffff;
+  font-style: normal;
+  padding-bottom: 9px;
+}
+.mail-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.phone-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .logo1 {
   color: #2196f3;
   margin: 0;
+  font-family: "Raleway";
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
 }
 .logo2 {
   color: #fff;
-  text-decoration: none;
   margin: 0;
+  font-family: "Raleway";
+  line-height: 1.19;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
 }
 .logo2:hover {
   color: #2196f3;
 }
-.contact-mail-footer {
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
-}
-.contact-phone-footer {
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
-}
-.address-footer {
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
-  color: #fff;
-  padding-top: 20px;
-}
-.contact-list {
-  list-style: none;
-  display: block;
-  align-content: flex-start;
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 9px;
-}
 .dolacz-do-nas {
-}
-.join-us {
-  font-weight: 700px;
+  font-family: Roboto;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: #fff;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.footer-whole {
+  margin: 0 auto;
+  padding: 0;
   float: left;
-  padding-right: 60px;
+}
+.join-us {
+  padding-bottom: 10px;
+  font-family: Roboto;
+  font-weight: 700;
 }
 .media-footer {
   display: flex;
