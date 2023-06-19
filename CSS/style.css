@@ -200,6 +200,7 @@ h2 {
   justify-content: space-around;
   gap: 30px;
   margin: 0 auto;
+  padding-bottom: 94px;
 }
 .section-background {
   background-color: #2f303a;
@@ -208,7 +209,7 @@ h2 {
 }
 .team-background {
   background: #f5f4fa;
-  padding-top: 94px;
+
   padding-bottom: 94px;
 }
 .our-team {
@@ -235,6 +236,7 @@ h2 {
 }
 .client-logo:hover {
   color: #2196f3;
+  border-color: #2196f3;
 }
 .human {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -442,4 +444,6 @@ h4 {
 .image {
   border: solid 1px;
   border-color: #eee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
