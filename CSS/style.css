@@ -285,6 +285,15 @@ h4 {
   padding-top: 20px;
   padding-left: 24px;
 }
+.LIP {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
 .usluga {
   font-weight: 400;
   font-size: 16px;
